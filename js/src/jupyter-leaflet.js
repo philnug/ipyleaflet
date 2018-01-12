@@ -755,7 +755,7 @@ var LeafletMapModel = widgets.DOMWidgetModel.extend({
         zoom : 12,
         max_zoom : 18,
         min_zoom : 1,
-        crs: "L.CRS.EPSG4226",
+        crs: L.CRS.EPSG4226,
         
         dragging : true,
         touch_zoom : true,
